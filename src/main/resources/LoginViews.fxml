@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="199.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="122.0" layoutY="49.0" text="Share Code">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sharec_input" layoutX="91.0" layoutY="86.0" prefHeight="43.0" prefWidth="154.0" text="9BHJh">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </TextField>
+      <Label layoutX="73.0" layoutY="14.0" text="Register Mesin Ini">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="277.0" layoutY="158.0" mnemonicParsing="false" onAction="#LoginMachine" text="Login" />
+      <Label layoutX="14.0" layoutY="170.0" text="Beta , Absent-Login" />
+      <Button layoutX="216.0" layoutY="158.0" mnemonicParsing="false" onAction="#OpenOption" text="Option" />
+   </children>
+</AnchorPane>

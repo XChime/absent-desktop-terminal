@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="166.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="4.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Base API URL" />
+      <TextField fx:id="OptionUrlInput" layoutX="81.0" layoutY="32.0" prefHeight="25.0" prefWidth="312.0" />
+      <Button layoutX="334.0" layoutY="127.0" mnemonicParsing="false" onAction="#OptionModalSave" text="Save" />
+      <Button layoutX="273.0" layoutY="127.0" mnemonicParsing="false" onAction="#OptionModalCancel" text="Cancel" />
+   </children>
+</AnchorPane>
